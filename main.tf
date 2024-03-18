@@ -12,3 +12,8 @@ resource "aws_instance" "myec2" {
       Name = var.aws_instance_name
     }
 }
+
+resource "aws_s3_bucket" "my-bucket" {
+  bucket = var.aws_s3_bucket
+  
+}
