@@ -21,3 +21,7 @@ variable "aws_instance_name" {
   description = "jenkins-instance"
   type        = string
 }
+
+variable "aws_s3_bucket" {
+  description = "value of bucket"
+}
